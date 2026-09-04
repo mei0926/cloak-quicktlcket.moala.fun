@@ -2037,14 +2037,15 @@ p.content-text {
 .title-date-container .date-and-time-wrapper {
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
   -webkit-align-items: center;
   align-items: center;
+
 }
 
 .title-date-container .date-and-time-wrapper .date-container {
-  width: 100%;
+  width: auto;
 }
 
 .title-date-container .date-and-time-wrapper .date-container {
